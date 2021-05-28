@@ -19,7 +19,7 @@ npm install datatables.net-keytable-bm
 
 ```
 var $ = require( 'jquery' );
-var dt = require( 'datatables.net-keytable-bm}' )( window, $ );
+var dt = require( 'datatables.net-keytable-bm' )( window, $ );
 ```
 
 ### bower
