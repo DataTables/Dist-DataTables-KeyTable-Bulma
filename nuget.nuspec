@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>2.6.1</version>
+        <id>datatables.net-keytable-bm</id>
+        <description>This is KeyTable for DataTables with styling for [Bulma](https://bulma.io/)</description>
+        <repository type="git" url="https://github.com/DataTables/Dist-DataTables-KeyTable-Bulma.git"/>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>http://datatables.net</projectUrl>
+        <license type="expression">MIT</license>
+        <tags>KeyTable  Excel  keyboard  Spreadsheet  Bulma  Datatables jQuery table</tags>
+        <dependencies>
+            <dependency id="datatables.net-keytable" version=">=2.6.1"/>
+            <dependency id="datatables.net-bm" version=">=1.10.24"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+    </metadata>
+    <files>
+        <file src="js/keyTable.bulma.js" target="content\Scripts"/>
+        <file src="js/keyTable.bulma.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/keyTable.bulma.min.js" target="content\Scripts"/>
+        <file src="js/keyTable.bulma.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/keyTable.bulma.css" target="content\Content"/>
+        <file src="css/keyTable.bulma.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/keyTable.bulma.min.css" target="content\Content"/>
+        <file src="css/keyTable.bulma.min.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="types/keyTable.bulma.d.ts" target="content\Scripts"/>
+        <file src="types/keyTable.bulma.d.ts" target="contentFiles\any\any\wwwroot\js"/>
+    </files>
+</package>
+
