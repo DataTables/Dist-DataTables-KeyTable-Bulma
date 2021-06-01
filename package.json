@@ -3,6 +3,7 @@
     "description": "KeyTable for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/keyTable.bulma.js",
     "style": "css/keyTable.bulma.css",
+    "types": "./types/keyTable.bulma.d.ts",
     "version": "2.6.1",
     "files": [
         "css/**/*.css",
