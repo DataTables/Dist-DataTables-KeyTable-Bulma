@@ -11,9 +11,9 @@
     ],
     "keywords": [
         "KeyTable",
-        "Excel",
-        "keyboard",
-        "Spreadsheet",
+ "Excel",
+ "keyboard",
+ "Spreadsheet",
         "Bulma",
         "Datatables",
         "jQuery",
@@ -22,6 +22,8 @@
         "sort"
     ],
     "dependencies": {
+        "datatables.net-keytable": ">=2.6.2",
+        "datatables.net-bm": ">=1.10.26-dev",
         "jquery": ">=1.7"
     },
     "moduleType": [
