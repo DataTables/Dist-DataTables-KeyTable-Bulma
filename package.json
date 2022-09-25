@@ -4,7 +4,7 @@
     "main": "js/keyTable.bulma.js",
     "style": "css/keyTable.bulma.css",
     "types": "./types/keyTable.bulma.d.ts",
-    "version": "2.6.4",
+    "version": "2.7.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-keytable": ">=2.6.4",
-        "datatables.net-bm": ">=1.11.5",
+        "datatables.net-keytable": ">=2.7.0",
+        "datatables.net-bm": ">=1.12.1",
         "jquery": ">=1.7"
     },
     "moduleType": [
