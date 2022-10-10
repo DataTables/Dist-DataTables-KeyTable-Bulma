@@ -2,12 +2,14 @@
     "name": "datatables.net-keytable-bm",
     "description": "KeyTable for DataTables with styling for [Bulma](https://bulma.io/)",
     "main": "js/keyTable.bulma.js",
+    "module": "js/keyTable.bulma.mjs",
     "style": "css/keyTable.bulma.css",
     "types": "./types/keyTable.bulma.d.ts",
     "version": "2.7.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [

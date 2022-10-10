@@ -1,7 +1,9 @@
 {
     "js": [
         "js/keyTable.bulma.js",
-        "js/keyTable.bulma.min.js"
+        "js/keyTable.bulma.min.js",
+        "js/keyTable.bulma.min.mjs",
+        "js/keyTable.bulma.mjs"
     ],
     "css": [
         "css/keyTable.bulma.css",
@@ -11,6 +13,5 @@
         "types/keyTable.bulma.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/KeyTable",
-    "last-tag": "2.6.4",
-    "last-sync": "c9cb500f1b24ffb37dde5c469f11176960f69ba5"
+    "last-tag": "2.7.0"
 }
