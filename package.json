@@ -4,7 +4,7 @@
     "main": "js/keyTable.bulma.js",
     "module": "js/keyTable.bulma.mjs",
     "style": "css/keyTable.bulma.css",
-    "types": "./types/keyTable.bulma.d.ts",
+    "types": "./types/types.d.ts",
     "version": "2.7.0",
     "files": [
         "css/**/*.css",
