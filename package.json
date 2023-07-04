@@ -5,7 +5,7 @@
     "module": "js/keyTable.bulma.mjs",
     "style": "css/keyTable.bulma.css",
     "types": "./types/keyTable.bulma.d.ts",
-    "version": "2.9.0",
+    "version": "2.10.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,9 +14,9 @@
     ],
     "keywords": [
         "KeyTable",
- "Excel",
- "keyboard",
- "Spreadsheet",
+        "Excel",
+        "keyboard",
+        "Spreadsheet",
         "Bulma",
         "Datatables",
         "jQuery",
