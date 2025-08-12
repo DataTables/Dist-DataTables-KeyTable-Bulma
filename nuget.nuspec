@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>KeyTable  Excel  keyboard  Spreadsheet  Bulma  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-keytable" version="2.7.0"/>
-            <dependency id="datatables.net-bm" version="1.12.1"/>
+            <dependency id="datatables.net-keytable" version="2.12.1"/>
+            <dependency id="datatables.net-bm" version="2.3.2"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
@@ -22,6 +22,10 @@
         <file src="js/keyTable.bulma.js" target="contentFiles\any\any\wwwroot\js"/>
         <file src="js/keyTable.bulma.min.js" target="content\Scripts"/>
         <file src="js/keyTable.bulma.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/keyTable.bulma.min.mjs" target="content\Scripts"/>
+        <file src="js/keyTable.bulma.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/keyTable.bulma.mjs" target="content\Scripts"/>
+        <file src="js/keyTable.bulma.mjs" target="contentFiles\any\any\wwwroot\js"/>
         <file src="css/keyTable.bulma.css" target="content\Content"/>
         <file src="css/keyTable.bulma.css" target="contentFiles\any\any\wwwroot\css"/>
         <file src="css/keyTable.bulma.min.css" target="content\Content"/>
