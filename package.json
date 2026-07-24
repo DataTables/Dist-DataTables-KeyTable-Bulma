@@ -5,7 +5,7 @@
     "module": "js/keyTable.bulma.mjs",
     "style": "css/keyTable.bulma.css",
     "types": "./types/keyTable.bulma.d.ts",
-    "version": "3.0.0-beta.1",
+    "version": "3.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -24,8 +24,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-keytable": "3.0.0-beta.1",
-        "datatables.net-bm": "3.0.0-0"
+        "datatables.net-keytable": "3.0.0",
+        "datatables.net-bm": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
