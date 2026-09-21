@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-keytable-bm",
     "description": "KeyTable for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/keyTable.bulma.js",
-    "module": "js/keyTable.bulma.mjs",
-    "style": "css/keyTable.bulma.css",
+    "main": "./js/keyTable.bulma.js",
+    "module": "./js/keyTable.bulma.mjs",
+    "style": "./css/keyTable.bulma.css",
     "types": "./types/keyTable.bulma.d.ts",
     "version": "3.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "KeyTable",
@@ -37,5 +36,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/KeyTable.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/keyTable.bulma.d.ts",
+            "import": "./js/keyTable.bulma.mjs",
+            "default": "./js/keyTable.bulma.mjs",
+            "require": "./js/keyTable.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/keyTable.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
