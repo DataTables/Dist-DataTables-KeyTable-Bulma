@@ -40,9 +40,10 @@
     "exports": {
         ".": {
             "types": "./types/keyTable.bulma.d.ts",
+            "style": "./css/keyTable.bulma.css",
             "import": "./js/keyTable.bulma.mjs",
-            "default": "./js/keyTable.bulma.mjs",
-            "require": "./js/keyTable.bulma.js"
+            "require": "./js/keyTable.bulma.js",
+            "default": "./js/keyTable.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
